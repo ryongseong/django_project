@@ -1,29 +1,17 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'layout.html' %}
+{% block content %}
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
-    
-    <link rel="shortcut icon" type="image⁄x-icon" href="https://media.istockphoto.com/id/167593832/ko/%EB%B2%A1%ED%84%B0/%EC%97%BF%EB%A8%B9%EC%96%B4.jpg?s=1024x1024&w=is&k=20&c=7zVw9Vu8gKY4lK5DPCLZbNuit4miHskIjELQVhxlpu4=">
-
-    <title>개발자 MBTI</title>
-    
+    <title>개발자 MBTI 검사</title>
 </head>
+
 <body>
-   
-    <div>
-        <h1>
-            네????
-        </h1>
-     </div>
-     
     <div class="content" style="text-align: center;">
-        
-        <a class="btn" href="/"> 너 따위가 개발을?? </a>
+        <a class="btn" href="{% url 'insight:first_question' %}">시작하기</a>
     </div>
     
-</body>
-</html>
+    <div class="sibar" >
+        <hr>
+        <a href="http://15.164.3.60:8080/">ⓒ 2023 insight</a>
+    </div>
+</body> 
+{% endblock %}

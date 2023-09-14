@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+{% block content %}
+<head>
+    <title>1번 질문</title>
+</head>
+
+<head>
+    <div>
+        <input class="test" type="text">
+        <input type="submit" value="전송">
+    </div>
+    <a class="btn" href="{% url 'insight:second_question' %}">시작하기</a>
+</head>
+{% endblock %}
