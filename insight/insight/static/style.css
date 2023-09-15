@@ -29,14 +29,18 @@ a{
     background-color: #839eb3;
 }
 
-.btn{
+#E.btn{
     width: 600px;
     height: 180px;
     border: 3px solid #001C30;
     color: #001C30;
     background-color: #DDE6ED;
     font-size: 32px bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
+
 
 .content{
     display: flex;
