@@ -1,1 +1,3 @@
 venvs/
+*.pyc
+__pycache__

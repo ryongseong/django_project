@@ -1,6 +1,5 @@
 *{
-    background-color: rgb(228	241	255);
-    box-sizing: border-box;
+    background-color: #001C30;
     font-family: 'BMJUA';
 }
 
@@ -13,36 +12,48 @@
 a{
     text-decoration: none;
     color: white;
-}
-
-.float-end{
-    color: white;
+    background-color: #001C30;
 }
 
 .btn{
-    background-color: black;
-    border: 3px solid white;
-    color: white;
-    display: inline-block;
+    background-color: #DDE6ED;
+    border: 3px solid #001C30;
+    color: #001C30;
     border-radius: 5px;
-    padding: 40px;
-    margin-top: 30%;
+    width: 240px;
+    height: 60px;
+    font-size: 32px;
 }
 
 .btn:hover{
-    background-color: pink;
+    background-color: #839eb3;
+}
+
+.btn{
+    width: 600px;
+    height: 180px;
+    border: 3px solid #001C30;
+    color: #001C30;
+    background-color: #DDE6ED;
+    font-size: 32px bold;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
 }
 
 .sibar{
     width: 100%;
-    height: 60px;
-    background-color: rgb(62, 62, 70);
+    /* height: 10%; */
+    background-color: #001C30;
     font-size: 16px;
     line-height: 1.3;
     text-align: center;
     color: white;
     padding-top: 20px;
     margin-top: 30px;
-    bottom: 0px;
+    /* bottom: 0px; */
     position: absolute;
+    margin-bottom: 15px;
 }

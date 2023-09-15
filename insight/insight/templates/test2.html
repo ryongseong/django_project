@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+{% block content %}
+<head>
+    <title>2번째 질문</title>
+</head>
+
+<body>
+    <form id="MBTI">
+        <a class="btn" href="{% url 'insight:third_question' %}">조장 or 발표자</a>
+        <a class="btn" href="{% url 'insight:third_question' %}">자료조사 or PPT제작</a>
+    </form>
+    <div>
+        <a href="{% url 'insight:first_question' %}">이전</a>
+    </div>
+</body>
+{% endblock %}
