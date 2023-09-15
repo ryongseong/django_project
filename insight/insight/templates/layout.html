@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {% load static %}
 <!DOCTYPE html>
 <html lang="ko">
@@ -11,34 +10,12 @@
     <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
     <link rel="shortcut icon" type="picture/png" href="{% static 'picture/보노보놐.png' %}">
 
-=======
-{% extends 'layout.html' %}
-{% block content %}
-<head>
->>>>>>> ryong
-    <title>개발자 MBTI 검사</title>
-</head>
-
-<body>
-<<<<<<< HEAD
-    <div class="content" style="text-align: center;">
-        <a class="btn" href="/"> 드루와 이 시바색캬 </a>
-    </div>
-
-    <div class="sibar">
-        ⓒ 2023 insight가 만든 사이트다 캬캬캬ㅋㅋ
-    </div>
-</body>
-</html>
-=======
-    <div class="content">
-        <a class="btn" href="{% url 'insight:first_question' %}">시작하기</a>
-    </div>
     
-    <div class="sibar">
-        <hr>
-        <a href="http://15.164.3.60:8080/">ⓒ 2023 insight</a>
-    </div>
-</body> 
-{% endblock %}
->>>>>>> ryong
+</head>
+<body>
+    <!-- 기본 템플릿 안에 삽입될 내용 Start -->
+    {% block content %}
+    {% endblock %}
+    <!-- 기본 템플릿 안에 삽입될 내용 End -->
+    </body>
+</html>
