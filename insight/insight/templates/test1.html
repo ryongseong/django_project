@@ -1,18 +1,32 @@
 {% extends 'layout.html' %}
-{% block content %}
 <head>
     <title>1번 질문</title>
 </head>
 
+{% block content %}
 <body>
-    <div class="content">
-        <form id="MBTI">
-            <a class="btn" id="E" href="{% url 'insight:second_question' %}">집 가서 쉬어야지..</a>
-            <a class="btn" id="E" href="{% url 'insight:second_question' %}">수업 끝났다 술먹자!!</a>
-        </form>
-    </div>
-    <div>
-        <a href="{% url 'insight:index' %}">이전</a>
+    <div class="shsd">
+        <div class="shsdd">
+            <div class="haeb">
+                <div class="qud">수업이 끝났다 나의 행동은?</div>
+            </div>
+            <form method="post">
+                <div class="qdsd">
+                    <a href="{% url 'insight:second_question' %}">
+                        <div class="answer">집 가서 쉬어야지..</div>
+                    </a>
+                    <br>
+                    <a href="{% url 'insight:second_question' %}">
+                        <div class="answer">수업 끝났다 술 묵자!!</div>
+                    </a>
+                </div>
+            </form>
+            <div class="coount">
+                <div class="page">
+                    <a href="{% url 'insight:index' %}">&lt; 이전</a>
+                    페이지 수</div>
+            </div>
+        </div>
     </div>
 </body>
 {% endblock %}
