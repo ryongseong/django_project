@@ -119,6 +119,11 @@ footer{
 
 /* 모바일 화면에서의 스타일 */
 @media (max-width: 768px) {
+    .qud{
+        font-size: 36px;
+    }
+
+
     .qdsd {
         display: flex;
         flex-direction: column;
