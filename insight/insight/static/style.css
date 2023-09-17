@@ -69,18 +69,14 @@ footer{
     /*제일 위의 질문*/
 }
 
-.coount{
-    display: contents;
-    flex-direction: column;
-    /* 이전과 페이지수 묶음 */
+.row, a {
+    font-size: 24px;
+    color: #EFEFEF;
 }
 
-.page{
+.col{
     font-size: 24px;
-    text-align: center;
     color: #EFEFEF;
-    display: block;
-    /*페이지 카운트 글자 크기*/
 }
 
 .coount a{
@@ -139,5 +135,9 @@ footer{
         font-size: 24px; /* 폰트 크기 조정 */
         text-align: center;
         margin: 10px 0; /* 간격 설정 */
+    }
+
+    .row, a{
+        font-size: 20px;
     }
 }
