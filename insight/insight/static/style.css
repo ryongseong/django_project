@@ -102,6 +102,7 @@ footer{
 .qdsd{
     /*답변 할 수 있는 버튼들 묶음*/
     display: block;
+    margin-bottom: 30px;
 }
 
 .answer{
