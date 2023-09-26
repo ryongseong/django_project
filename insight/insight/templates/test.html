@@ -14,7 +14,7 @@
 
 <body>
     <div class="start">
-        <h1>test</h1>
+        <h1>개발자 MBTI 테스트</h1>
         <button type="button" onclick='start();'>시작</button>
     </div>
 
@@ -42,7 +42,7 @@
     <script>
         var num = 1;
         var q = {
-            1: {"title": "1번 문제","type": "EI", "A": "대답 E", "B": "대답 I"},
+            1: {"title": "1번 문제","type": "EI", "A": "집 가서 쉬어야지…", "B": "술먹자!!"},
             2: {"title": "2번 문제","type": "EI", "A": "대답 E", "B": "대답 I"},
             3: {"title": "3번 문제","type": "EI", "A": "대답 E", "B": "대답 I"},
             4: {"title": "4번 문제","type": "SN", "A": "대답 S", "B": "대답 N"},
@@ -86,7 +86,7 @@
                 $(".q-num").html("Q" + num);
                 $(".progress-txt").html(num + ' / 12');
                 $(".progress-bar").attr('style', 'width: calc(100/12*' + num + '%)');
-                $("title").html(q[num]["title"]);
+                $("#title").html(q[num]["title"]);
                 $("#type").val(q[num]["type"]);
                 $("#A").html(q[num]["A"]);
                 $("#B").html(q[num]["B"]);
