@@ -1,6 +1,6 @@
 var num = 1;
 var q = {
-    1: {"title": "1번 문제","type": "EI", "A": "집 가서 쉬어야지…", "B": "술먹자!!"},
+    1: {"title": "1번 문제","type": "EI", "A": "dksldfkadflaknvslaknv", "B": "dlkanflkasnvlsanvlk"},
     2: {"title": "2번 문제","type": "EI", "A": "대답 E", "B": "대답 I"},
     3: {"title": "3번 문제","type": "EI", "A": "대답 E", "B": "대답 I"},
     4: {"title": "4번 문제","type": "SN", "A": "대답 S", "B": "대답 N"},
@@ -38,7 +38,7 @@ function next() {
         ($("#TF"). val() < 2) ? mbti += "F" : mbti += "T";
         ($("#JP"). val() < 2) ? mbti += "P" : mbti += "J";
 
-        window.location.href = "./result/" + mbti;
+        window.location.href = "./" + mbti;
     }else {
         $(".q-num").html("Q" + num);
         $(".progress-txt").html(num + ' / 12');
