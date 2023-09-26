@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-def index(request):
+def mbti_test(request):
     return render(request, 'test.html')
 
 def home(request):
