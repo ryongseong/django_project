@@ -1,13 +1,13 @@
 from django.shortcuts import render
 
+def index(request):
+    return render(request, 'test.html')
+
 def home(request):
     return render(request, 'start.html')
 
 # def index(request):
 #     return render(request, 'mbti/main.html')
-
-def index(request):
-    return render(request, 'test.html')
 
 def first_question(request):
     return render(request, 'mbti/test1.html')

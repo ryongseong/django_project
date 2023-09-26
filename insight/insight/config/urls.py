@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path, include
-from insight.views import index, home
+from insight.views import home
 
 urlpatterns = [
     path('admin/', admin.site.urls),
