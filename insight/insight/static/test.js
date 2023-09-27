@@ -38,7 +38,7 @@ function next() {
         ($("#TF"). val() < 2) ? mbti += "F" : mbti += "T";
         ($("#JP"). val() < 2) ? mbti += "P" : mbti += "J";
 
-        window.location.href = "./result/" + mbti;
+        window.location.href = "./" + mbti;
     }else {
         $(".q-num").html("Q" + num);
         $(".progress-txt").html(num + ' / 12');
