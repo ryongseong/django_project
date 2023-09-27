@@ -1,40 +1,55 @@
 from django.shortcuts import render
 
-def index(request):
-    return render(request, 'main.html')
+def mbti_test(request):
+    return render(request, 'test.html')
 
-def first_question(request):
-    return render(request, 'test1.html')
+def home(request):
+    return render(request, 'start.html')
 
-def second_question(request):
-    return render(request, 'test2.html')
+def ENFJ(request):
+    return render(request, 'result/ENFJ.html')
 
-def third_question(request):
-    return render(request, 'test3.html')
+def ENFP(request):
+    return render(request, 'result/ENFP.html')
 
-def fourth_question(request):
-    return render(request, 'test4.html')
+def ENTJ(request):
+    return render(request,'result/ENTJ.html')
 
-def fifth_question(request):
-    return render(request, 'test5.html')
+def ENTP(request):
+    return render(request, 'result/ENTP.html')
 
-def six_question(request):
-    return render(request, 'test6.html')
+def ESFJ(request):
+    return render(request, 'result/ESFJ.html')
 
-def seven_question(request):
-    return render(request, 'test7.html')
+def ESFP(request):
+    return render(request, 'result/ESFP.html')
 
-def eight_question(request):
-    return render(request, 'test8.html')
+def ESTJ(request):
+    return render(request, 'result/ESTJ.html')
 
-def nine_question(request):
-    return render(request, 'test9.html')
+def ESTP(request):
+    return render(request, 'result/ESTP.html')
 
-def ten_question(request):
-    return render(request, 'test10.html')
+def INFJ(request):
+    return render(request, 'result/INFJ.html')
 
-def eleven_question(request):
-    return render(request, 'test11.html')
+def INFP(request):
+    return render(request, 'result/INFP.html')
 
-def twelve_question(request):
-    return render(request, 'test12.html')
+def INTJ(request):
+    return render(request, 'result/INTJ.html')
+
+def INTP(request):
+    return render(request, 'result/INTP.html')
+
+def ISFJ(request):
+    return render(request, 'result/ISFJ.html')
+
+def ISFP(request):
+    return render(request, 'result/ISFP.html')
+
+def ISTJ(request):
+    return render(request, 'result/ISTJ.html')
+
+def ISTP(request):
+    return render(request, 'result/ISTP.html')
