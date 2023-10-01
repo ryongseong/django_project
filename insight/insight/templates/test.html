@@ -2,7 +2,21 @@
 {% block content %}
 <body class="content">
     <div class="start">
-        <button class="btn" type="button" onclick='start();'>시작하기</button>
+        <div>
+            <div>
+                <img src="#" alt="제목">
+            </div>
+            <div>
+                <img src="#" alt="캐릭터 이미지">
+            </div>
+            <div class="shtadf">
+                <button class="btn" type="button" onclick='start();'>시작하기</button>
+            </div>
+        </div>
+        <hr>
+        <footer>
+            ⓒ 2023 insight django project
+        </footer>
     </div>
     <div class="shsd">
         <div class="question" style="display: none;">
@@ -33,6 +47,5 @@
     <input type="hidden" id="TF" value="0">
     <input type="hidden" id="JP" value="0">
 </body>
-    <script src="../../static/test.js" type="text/javascript"></script>
 </html>
 {% endblock %}

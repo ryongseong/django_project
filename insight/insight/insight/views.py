@@ -1,13 +1,10 @@
 from django.shortcuts import render
 
-def mbti_test_main(request):
-    return render(request, 'mbti_test_main.html')
+def home(request):
+    return render(request, 'start.html')
 
 def mbti_test(request):
     return render(request, 'test.html')
-
-def home(request):
-    return render(request, 'start.html')
 
 def ENFJ(request):
     return render(request, 'result/ENFJ.html')
