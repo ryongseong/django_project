@@ -58,7 +58,7 @@ footer{
 
 /* 위에는 메인 페이지 스타일 */
 .shsdd{
-    max-width: 500px;
+    max-width: 600px;
     width: 70%;
     margin: 150px auto 150px;
     /* 전체 페이지 안에서 내용 위치*/
@@ -66,6 +66,7 @@ footer{
 
 .haeb{
     padding-top: 60px;
+    text-align: center;
     /*제일 위의 질문*/
 }
 
@@ -79,7 +80,7 @@ footer{
     color: #EFEFEF;
 }
 
-.coount a{
+#coount p{
     font-size: 24px;
     text-align: center;
     color: #EFEFEF;
@@ -88,12 +89,13 @@ footer{
 
 
 .qud{
-    width: 500px;
+    width: 600px;
     height: 100px;
     font-size: 40px;
     text-align: center;
     color: #EFEFEF;
     margin-bottom: 50px;
+    font-weight: bold;
     /*제일 위 질문 내용의 글자*/
 }
 
@@ -106,7 +108,7 @@ footer{
 .answer{
     /*답변하는 버튼 내용*/
     font-size: 32px;
-    width: auto;
+    width: 600px;
     height: 180px;
     background-color: #DDE6ED;
     color: #001C30;

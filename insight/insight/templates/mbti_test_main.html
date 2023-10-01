@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+{% block content %}
+<head>
+    <title>개발자 MBTI</title>
+</head>
+<body>
+    <div class="shsd"><!--페이지 전체 크기-->
+        <div class="content"><!--페이지 안의 컨텐츠 내용-->
+            <div>
+                <img src="" alt="제목">
+            </div>
+            <div>
+                <img src="" alt="캐릭터 이미지">
+            </div>
+            <div class="shtadf"><!--버튼 위치-->
+                <a href="{% url 'insight:mbti_test' %}">
+                    <div class="btn">시작하기</div>
+                </a>
+            </div>
+        </div>
+        <hr>
+    <footer>
+        ⓒ 2023 insight django project
+    </footer>
+    </div>
+
+</body> 
+{% endblock %}

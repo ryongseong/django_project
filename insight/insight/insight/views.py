@@ -1,5 +1,8 @@
 from django.shortcuts import render
 
+def mbti_test_main(request):
+    return render(request, 'mbti_test_main.html')
+
 def mbti_test(request):
     return render(request, 'test.html')
 
