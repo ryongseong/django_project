@@ -1,5 +1,5 @@
 *{
-    background-color: #001C30;
+    background-color: #27374D;
     font-family: 'BMJUA';
 }
 
@@ -17,13 +17,19 @@
     /* 페이지 전체 내용 */
 }
 
+img{
+    display: inline-block;
+    width: 450px;
+
+}
+
 .content{
     text-align: center;
     /*페이지 안의 내용*/
 }
 
 .shtadf{
-    margin-top: 400px;
+    margin-top: 65px;
     /* 시작 버튼 위치 옮기기 이미지 넣고 위치 수정 필요 */
 }
 
