@@ -20,8 +20,7 @@
 img{
     display: inline-block;
     width: 450px;
-
-}
+}   
 
 .content{
     text-align: center;
@@ -35,6 +34,10 @@ img{
 
 a{
     text-decoration: none;
+}
+
+hr{
+    color: white;
 }
 
 .stitle{
