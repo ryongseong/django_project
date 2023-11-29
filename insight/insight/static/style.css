@@ -136,6 +136,33 @@ footer{
     font-size: 24px;
 }
 
+body.content {
+    color: white;
+    font-size: 18px;
+}
+
+.mbti p {
+    font-size: 24px;
+}
+
+.mbti p:last-child {
+    font-size: 48px;
+}
+
+.hobby p {
+    font-size: 18px;
+}
+
+.hobby p:last-child {
+    font-size: 60px;
+}
+
+.traits li,
+.job li,
+.skills li {
+    font-size: 15px;
+}
+
 /* 모바일 화면에서의 스타일 */
 @media (max-width: 768px) {
     .qud{
