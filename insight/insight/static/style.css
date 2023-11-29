@@ -151,6 +151,7 @@ body.content {
 
 .hobby p {
     font-size: 24px;
+
 }
 .hobby p:nth-child(2) {
     font-size: 60px;
@@ -164,6 +165,37 @@ body.content {
     text-align: left;
 }
 
+.caffein {
+    flex-direction: row;
+}
+
+.caffein p {
+    margin-top: 1vh;
+}
+
+.caffein img{
+    margin-left: 0;
+    margin-right: 10px;
+    width: 12vh;
+    height: 12vh;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 80vh;
+}
+
+.traits, 
+.job, 
+.skill {
+    text-align: left;
+    width: 50vh;
+    margin: 2vh;
+}
+
 .traits li,
 .job li,
 .skill li {
@@ -171,9 +203,9 @@ body.content {
     text-align: left;
 }
 
-.caffein img{
-    width: 120px;
-    height: 120px;
+.ENFJ img{
+width: 54vh;
+height: 58vh;
 }
 
 /* 모바일 화면에서의 스타일 */
