@@ -171,6 +171,11 @@ body.content {
     text-align: left;
 }
 
+.caffein img{
+    width: 120px;
+    height: 120px;
+}
+
 /* 모바일 화면에서의 스타일 */
 @media (max-width: 768px) {
     .qud{
