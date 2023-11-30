@@ -156,7 +156,7 @@ body.content {
     }
 
 .mbti p,
-.hobby p {
+.job p {
     font-size: 24px;
 }
 
@@ -164,12 +164,12 @@ body.content {
     font-size: 48px;
 }
 
-.hobby p:nth-child(2) {
+.job p:nth-child(2) {
     font-size: 60px;
 }
 
 .traits, 
-.job, 
+.work, 
 .skill {
     text-align: left;
     width: 50vh;
@@ -177,14 +177,14 @@ body.content {
 }
 
 .traits p,
-.job p,
+.work p,
 .skill p {
     font-size: 18px;
     text-align: left;
 }
 
 .traits li,
-.job li,
+.work li,
 .skill li {
     font-size: 15px;
     text-align: left;
