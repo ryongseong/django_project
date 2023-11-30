@@ -136,12 +136,27 @@ footer{
     font-size: 24px;
 }
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 80vh;
+}
+
 body.content {
     color: #ffffff;
     font-size: 18px;
 }
 
-.mbti p {
+.ENFJ img{
+    margin-bottom: 2vh;
+    width: 54vh;
+    height: 58vh;
+    }
+
+.mbti p,
+.hobby p {
     font-size: 24px;
 }
 
@@ -149,43 +164,8 @@ body.content {
     font-size: 48px;
 }
 
-.hobby p {
-    font-size: 24px;
-
-}
 .hobby p:nth-child(2) {
     font-size: 60px;
-}
-
-.traits p,
-.caffein p,
-.job p,
-.skill p {
-    font-size: 18px;
-    text-align: left;
-}
-
-.caffein {
-    flex-direction: row;
-}
-
-.caffein p {
-    margin-top: 1vh;
-}
-
-.caffein img{
-    margin-left: 0;
-    margin-right: 10px;
-    width: 12vh;
-    height: 12vh;
-}
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 80vh;
 }
 
 .traits, 
@@ -196,6 +176,13 @@ body {
     margin: 2vh;
 }
 
+.traits p,
+.job p,
+.skill p {
+    font-size: 18px;
+    text-align: left;
+}
+
 .traits li,
 .job li,
 .skill li {
@@ -203,9 +190,24 @@ body {
     text-align: left;
 }
 
-.ENFJ img{
-width: 54vh;
-height: 58vh;
+.caffein,
+.trend {
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.caffein p,
+.trend p {
+    margin-bottom: 1vh;
+}
+
+.caffein img,
+.trend img{
+    margin-right: 1vh;
+    margin-bottom: 1vh;
+    width: 12vh;
+    height: 12vh;
 }
 
 /* 모바일 화면에서의 스타일 */
