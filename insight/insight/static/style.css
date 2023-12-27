@@ -139,6 +139,84 @@ footer{
     font-size: 24px;
 }
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 80vh;
+}
+
+body.content {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.ENFJ img{
+    margin-bottom: 2vh;
+    width: 54vh;
+    height: 58vh;
+    }
+
+.mbti p,
+.job p {
+    font-size: 24px;
+}
+
+.mbti p:nth-child(2) {
+    font-size: 48px;
+}
+
+.job p:nth-child(2) {
+    font-size: 60px;
+}
+
+.traits, 
+.work, 
+.skill {
+    text-align: left;
+    width: 50vh;
+    margin: 2vh;
+}
+
+.traits p,
+.work p,
+.skill p {
+    font-size: 18px;
+    text-align: left;
+}
+
+.traits li,
+.work li,
+.skill li {
+    font-size: 15px;
+    text-align: left;
+}
+
+.caffein,
+.trend {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caffein{
+    flex-direction: row;
+}
+
+.caffein p,
+.trend p {
+    margin-bottom: 1vh;
+}
+
+.caffein img,
+.trend img{
+    margin-right: 1vh;
+    margin-bottom: 1vh;
+    width: 12vh;
+    height: 12vh;
+}
+
 /* 모바일 화면에서의 스타일 */
 @media (max-width: 768px) {
     .qud{
