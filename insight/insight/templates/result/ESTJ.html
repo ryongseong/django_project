@@ -1,11 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>ESTJ</h1>
+{% extends 'layout.html' %}
+{% block content %}
+<body class="content">
+    <div class="start">
+        <div class="mbti">
+            <p>당신의 MBTI는</p>
+            <p>ESTJ</p>
+        </div>
+        <div class="job">
+            <p>자유를 좋아하는 당신!</p>
+            <p>QA 개발자</p>
+            <p>가 되어보는건 어떨까?</p>
+        </div>
+        <div class="ENFJ">
+            <img src="" alt="캐릭터 일러스트">
+        </div>
+        <div class="caffein">
+            <p>하루 평균 카페인 섭취량</p>
+            <img src="/static/picture/COFFEE_rm.png" alt="커피 잔 수">
+            <img src="/static/picture/COFFEE_rm.png" alt="커피 잔 수">
+        </div>
+        <div class="trend">
+            <p>유행에 한창 민감할 나이</p>
+            <img src="" alt="아이템 사진">  
+        </div>
+        <div class="traits">
+            <p>특징</p>
+            <ul>
+                <li>현실적, 구체적, 사실적이며 어떠한 활동을 조직화하고 주도해 나가는 지도력이 있다</li>
+                <li>실질적이고 현실 감각이 뛰어나며 일을 조직하고 계획하여 추진시키는 능력이 있다</li>
+                <li>상대방의 디테일한 단점들을 보고 속에서 끓어오르는 열을 입 밖으로 토해내지 않는다</li>
+                <li>외부에서의 모습과 내부에서의 모습이 완전 딴판이다</li>
+            </ul>
+        </div>
+        <div class="work">
+            <p>하는 일</p>
+            <ul>
+                <li>제품의 설계 및 생산과정 또는 고객의 요구사항이나 시장의 잠재수요 분석 등에 행해지는 여러 절차 과정을 정의하고 수립</li>
+                <li>게임 기획단계부터 개발된 게임에 대해 테스트 계획을 세우고 개발이 완료되면 출시 전까지 다양한 환경에서 게임을 테스트해 보그가 없는지 체크</li>
+                <li>프로젝트의 품질에 문제가 될 수 있는 모든 부분을 종합적으로 고려한다</li>
+            </ul>
+        </div>
+        <div class="skill">
+            <p>필요 역량</p>
+            <ul>
+                <li>istqb 자격증, 정보처리기사</li>
+                <li>소프트웨어 공학 이해</li>
+            </ul>
+        </div>
+    </div>
 </body>
-</html>
+{% endblock %}
