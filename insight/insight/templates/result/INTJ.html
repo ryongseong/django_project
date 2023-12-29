@@ -1,1 +1,52 @@
-<h1>INTJ</h1>
+{% extends 'layout.html' %}
+{% block content %}
+<body class="content">
+    <div class="start">
+        <div class="mbti">
+            <p>당신의 MBTI는</p>
+            <p>INTJ</p>
+        </div>
+        <div class="job">
+            <p>자유를 좋아하는 당신!</p>
+            <p>데이터 분석가</p>
+            <p>가 되어보는건 어떨까?</p>
+        </div>
+        <div class="character">
+            <img src="" alt="캐릭터 일러스트">
+        </div>
+        <div class="caffein">
+            <p>하루 평균 카페인 섭취량</p>
+            <img src="/static/picture/COFFEE_rm.png" alt="커피 잔 수">
+            <img src="/static/picture/COFFEE_rm.png" alt="커피 잔 수">
+        </div>
+        <div class="trend">
+            <p>유행에 한창 민감할 나이</p>
+            <img src="" alt="아이템 사진">  
+        </div>
+        <div class="traits">
+            <p>특징</p>
+            <ul>
+                <li>색다른 관점이나 반대 의견에 더 주목하는 경향이 있다</li>
+                <li>계획과 전략 설계를 좋아한다</li>
+                <li>아무에게 시간과 에너지를 투자하는 편은 아니므로, 단순한 지인에게는 미지의 인물이다</li>
+                <li>팀 업무에 느슨하거나 헌신이 부족한 사람을 용서할 수 없어한다</li>
+            </ul>
+        </div>
+        <div class="work">
+            <p>하는 일</p>
+            <ul>
+                <li>주로 기업이나 정부 기관, 연구소 등에서 일하며, 데이터를 분석하여 이해하기 쉬운 형태로 보고서나 시각화 자료 등을 만들어 의사결정을 지원한다</li>
+                <li>기업이나 조직이 데이터를 효율적으로 활용하여 경영 전략 수립, 문제 해결, 예측 및 비즈니스 성과 향상들을 이루는데 도움을 준다</li>
+            </ul>
+        </div>
+        <div class="skill">
+            <p>필요 역량</p>
+            <ul>
+                <li>SAS, R, Python 등의 분석 도구 이해</li>
+                <li>SQL, Hadoop 등의 데이터 관리 자격증</li>
+                <li>컴퓨터 공학, 통계학, 경영학 등 관련 분야 이해</li>
+            </ul>
+        </div>
+    </div>
+</body>
+{% endblock %}
